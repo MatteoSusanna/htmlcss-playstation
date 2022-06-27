@@ -1,0 +1,16 @@
+
+
+header .header_top{
+    background-color: black;
+}
+
+.header_top img{
+    width: 80px;
+}
+
+.header_bot{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+}
