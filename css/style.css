@@ -2,12 +2,18 @@ body{
     font-family: sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 header .header_top{
     background-color: black;
 }
 
 .header_top img{
     width: 80px;
+    margin-right: 10px;
 }
 
 .header_bot{
@@ -67,4 +73,33 @@ footer{
     background-color: #00439c;
     color: white;
     overflow: hidden;
+}
+
+footer a{
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+/*button*/
+
+.ms_btn{
+    border-radius: 17px;
+    padding: 10px;
+}
+
+.btn_rosso{
+    background-color: #cd3d0f;
+}
+
+.btn_grigio{
+    background-color: #363636;
+}
+
+.btn_grigio_chiaro{
+    background-color: #d9dadc;
+    color: #5c84e4;
 }
