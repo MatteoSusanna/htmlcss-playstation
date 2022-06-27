@@ -60,3 +60,12 @@ header .header_top{
     background-color: #bebcbb;
 }
 
+#now{
+    background-color: #161c3b;
+    color: white;
+}
+
+#social{
+    width: 500px;
+    margin: 0 auto;
+}
