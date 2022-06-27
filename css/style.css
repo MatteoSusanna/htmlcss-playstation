@@ -65,7 +65,7 @@ header .header_top{
 }
 
 #social{
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -102,4 +102,23 @@ ul li{
 .btn_grigio_chiaro{
     background-color: #d9dadc;
     color: #5c84e4;
+}
+
+/*hover*/
+
+#console .card{
+    opacity: 0.5;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+#console .card:hover{
+    opacity: 1;
+    border-bottom: 2px solid blue;
+    border-radius: 0;
+}
+
+#card .ms_hover:hover{
+    transform: scale(1.1);
+
 }
