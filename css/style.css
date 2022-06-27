@@ -27,7 +27,7 @@ header .header_top{
 
 }
 
-#jumbo .container{
+#jumbo .container-fluid{
     height: 100%;
 }
 
@@ -36,12 +36,23 @@ header .header_top{
 }
 
 
-
-
-
 .box{
     background-color: red;
     height: 100px;
     width: 100px;
+}
+
+#acquisti{
+    height: 600px;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#uscite{
+    background-color: #1f1f1f;
+    color: white;
 }
 
