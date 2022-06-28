@@ -7,6 +7,12 @@ a{
     color: black;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
 header .header_top{
     background-color: black;
 }
@@ -30,11 +36,14 @@ header .header_top{
     background-position: center;
     background-size: cover;
     color: white;
+    position: relative;
 
 }
 
 #jumbo .container-fluid{
-    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .ms_img{
@@ -62,11 +71,6 @@ header .header_top{
 #now{
     background-color: #161c3b;
     color: white;
-}
-
-#social{
-    width: 400px;
-    margin: 0 auto;
 }
 
 footer{
@@ -118,7 +122,8 @@ ul li{
     border-radius: 0;
 }
 
-#card .ms_hover:hover{
-    transform: scale(1.1);
-
+#card .ms_hover img:hover{
+    outline: 2px solid blue;
+    outline-offset: 3px;
+    border-radius: 5px;
 }
