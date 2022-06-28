@@ -127,3 +127,18 @@ ul li{
     outline-offset: 3px;
     border-radius: 5px;
 }
+
+.btn_grigio:hover{
+    outline: 2px solid #363636;
+    outline-offset: 1px;
+}
+
+.ms_btn_style:hover{
+    outline: 2px solid #0D6EFD;
+    outline-offset: 1px;
+}
+
+.btn_rosso:hover{
+    outline: 2px solid #cd3d0f;
+    outline-offset: 1px;
+}
