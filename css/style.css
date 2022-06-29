@@ -50,6 +50,19 @@ header .header_top{
     width: 200px;
 }
 
+.ms_col_border{
+    border-bottom: 2px solid blue;
+}
+
+#console .ms_col{
+    opacity: 0.5;
+    border-bottom: 2px solid white;
+}
+
+#console .ms_col_active{
+    border-bottom: 2px solid blue;
+}
+
 #acquisti{
     height: 600px;
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
@@ -87,6 +100,9 @@ ul li{
     list-style: none;
 }
 
+.grigio_chiaro_text{
+    color: #727272;
+}
 
 /*button*/
 
@@ -96,10 +112,12 @@ ul li{
 }
 
 .btn_rosso{
+    outline: 2px solid #cd3d0f;
     background-color: #cd3d0f;
 }
 
 .btn_grigio{
+    outline: 2px solid #363636;
     background-color: #363636;
 }
 
@@ -110,13 +128,7 @@ ul li{
 
 /*hover*/
 
-#console .card{
-    opacity: 0.5;
-    border: none;
-    border-bottom: 2px solid white;
-}
-
-#console .card:hover{
+#console .ms_col:hover{
     opacity: 1;
     border-bottom: 2px solid blue;
     border-radius: 0;
@@ -129,7 +141,6 @@ ul li{
 }
 
 .btn_grigio:hover{
-    outline: 2px solid #363636;
     outline-offset: 1px;
 }
 
@@ -139,6 +150,5 @@ ul li{
 }
 
 .btn_rosso:hover{
-    outline: 2px solid #cd3d0f;
     outline-offset: 1px;
 }
